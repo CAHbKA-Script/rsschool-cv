@@ -7,5 +7,93 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <header>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="#name">name</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#code">code</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#experience">education</a></li>
+          <li><a href="#language">language</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="name">
+      <img src="./images_1.svg" alt="avatar">
+      <h1>KOZEL ALEKSANDR</h1>
+    </section>
+    <section id="contact">
+      <h2>Contacts</h2>
+      <ul>
+        <li><a href="">Telegram</a></li>
+        <li><a href="">Mail</a></li>
+        <li><a href="">Discord</a></li>
+      </ul>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I want to be a frontend developer</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><span>HTML</span></li>
+        <li><span>CSS</span></li>
+        <li><span>JavaScript</span></li>
+        <li><span>Git</span></li>
+      </ul>
+    </section>
+    <section id="code">
+      <h2>Code</h2>
+      <p>async function getDomains(links) {
+        let domains = [];
+        for(item in links) {
+            links[item].forEach(i => {
+                domains.push(i.split('/').filter(el => el.length > 0)[1]);
+            })
+        };
+        let domainsSet = new Set(domains);
+        domains = Array.from(domainsSet);
+        return domains;
+        }
+      </p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><span>wrote code at uni</span></li>
+        <li><span>wrote code on the course</span></li>
+      </ul>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><span>graduated from BSUIR</span></li>
+        <li><span>took several it-courses</span></li>
+      </ul>
+    </section>
+    <section id="language">
+      <h2>Language</h2>
+      <ul>
+        <li><span>RUSSIAN (speak)</span></li>
+        <li><span>BELARUSSIAN (my first language)</span></li>
+        <li><span>ENGLISH (taught at university)</span></li>
+        <li><span>DEUTSCH (taught in school)</span></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/CAHbKA-Script">github</a>
+    <span>2026</span>
+    <a href="https://app.rs.school/">
+      <img src="./logo-rsschool3.png" alt="rs school logo">
+    </a>
+  </footer>
 </body>
 </html>
