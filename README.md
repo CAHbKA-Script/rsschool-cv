@@ -1,1 +1,1 @@
-# [rsschool-cv](https://cahbka-script.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://cahbka-script.github.io/rsschool-cv)
